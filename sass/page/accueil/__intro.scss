@@ -1,0 +1,19 @@
+.intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F6F6F6;
+    padding-bottom: 57px;
+
+    &__title{
+        text-align: center;
+        padding: 39px 58px 0px 42px;
+        height: 68px;
+    }
+    &__subtitle{
+        font-size: 18px;
+        font-weight: 300;
+        text-align: center;
+        margin-bottom: 27px;
+    }
+}
