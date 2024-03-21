@@ -185,4 +185,39 @@
   transition: opacity 0.5s;
 }
 
+.footer {
+  background-color: #353535;
+  padding: 22px 25px;
+}
+.footer * {
+  color: white;
+  list-style: none;
+  text-decoration: none;
+}
+.footer__title {
+  font-family: Shrikhand;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 18px;
+  padding-bottom: 16px;
+}
+.footer__ul {
+  padding-left: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+.footer__size-txt {
+  font-weight: 300;
+}
+.footer__logo {
+  padding-right: 5px;
+}
+.footer__size-logo1 {
+  font-size: 13px;
+}
+.footer__size-logo2 {
+  font-size: 10px;
+}
+
 /*# sourceMappingURL=style.css.map */

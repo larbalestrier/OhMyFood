@@ -1,0 +1,41 @@
+.footer{
+    
+    
+    background-color: #353535;
+    padding: 22px 25px;
+    & *{
+        color: white;
+        list-style: none;
+        text-decoration: none;
+    }
+    
+
+    &__title{
+        font-family: Shrikhand;
+        font-style: italic;
+        font-weight: 400;
+        font-size: 18px;
+        padding-bottom: 16px;
+    }
+
+    &__ul{
+        padding-left: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 7px;
+    }
+
+    &__size-txt{
+        font-weight: 300;
+    }
+    &__logo{
+        padding-right: 5px;
+    }
+    &__size-logo1{
+        font-size: 13px;
+    }
+    &__size-logo2{
+        font-size: 10px;
+    }
+    
+}
