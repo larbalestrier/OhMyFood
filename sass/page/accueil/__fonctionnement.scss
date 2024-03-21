@@ -1,0 +1,51 @@
+.fonctionnement {
+    margin: 48px 20px 68px 20px;
+    &__title {
+        font-size: 24px;
+        font-weight: 700;
+        padding-bottom: 26px;
+    }
+    &__ol {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        padding: 0 0 0 5px;
+
+        list-style: none; /* Supprime les puces par défaut */
+        counter-reset: my-counter; /* Réinitialise le compteur */
+    }
+    &__li {
+        padding: 28px 0 28px 32px;
+        background-color: #F6F6F6;
+        box-shadow: 0px 4px 15px 0px #00000026;
+        border-radius: 20px;
+        counter-increment: my-counter; /* Incrémente le compteur à chaque élément */
+        position: relative;
+
+        &:hover .fonctionnement__logo {
+            color: #9356DC;
+        }
+
+        &::before {
+            content: counter(my-counter);
+            background-color: #9356DC;
+            display: inline-block;
+            width: 24px; 
+            height: 24px; 
+            border-radius: 50%; 
+            color: #FFFFFF; 
+            position: absolute;
+            left: -8px;
+            font-size: 14px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+    }
+        &__logo {
+            padding-right: 22px;
+            color: #7E7E7E;
+        }
+    
+}
