@@ -3,6 +3,9 @@
     flex-direction: column;
     img {
         width: 162px;
+        @media (min-width: 1024px) {
+            width: 200px;
+        }
     }
     &__link {
         display: flex;
@@ -10,6 +13,9 @@
         padding-block: 14px 13px;
         box-shadow: 0px 2px 4px 0px #00000026;
         position: relative;
+        @media (min-width: 1024px) {
+            padding-block: 30px;
+        }
     }
 
     form {

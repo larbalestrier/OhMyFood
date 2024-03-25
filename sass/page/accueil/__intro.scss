@@ -4,16 +4,27 @@
     align-items: center;
     background-color: #F6F6F6;
     padding-bottom: 57px;
-
+    @media (min-width: 1024px){
+        padding-bottom: 30px;
+    }
     &__title{
         text-align: center;
         padding: 39px 58px 0px 42px;
         height: 68px;
+        @media (min-width: 1024px) {
+            font-size: 40px;
+            padding-top: 30px;
+        }
     }
     &__subtitle{
         font-size: 18px;
         font-weight: 300;
         text-align: center;
         margin-bottom: 27px;
+        @media (min-width: 1024px) {
+           br {
+            display: none;
+           }
+        }
     }
 }
