@@ -158,12 +158,28 @@
 
 .restaurants {
   background-color: #F6F6F6;
-  padding: 54px 20px 66px 20px;
+  padding: 30px 20px 66px 20px;
+}
+@media (min-width: 1024px) {
+  .restaurants {
+    padding: 30px 180px;
+  }
+}
+.restaurants__title-section {
+  padding-bottom: 28px;
 }
 .restaurants__container {
   display: flex;
   flex-direction: column;
   gap: 18px;
+}
+@media (min-width: 1024px) {
+  .restaurants__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 100px;
+    row-gap: 50px;
+  }
 }
 .restaurants__card {
   box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.1019607843);
