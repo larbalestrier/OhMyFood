@@ -1,5 +1,8 @@
 .fonctionnement {
     margin: 48px 20px 68px 20px;
+    @media (min-width: 1024px){
+        margin: 50px 180px;
+    }
     &__title {
         font-size: 24px;
         font-weight: 700;
@@ -13,6 +16,10 @@
 
         list-style: none; /* Supprime les puces par défaut */
         counter-reset: my-counter; /* Réinitialise le compteur */
+        @media (min-width: 1024px){
+            flex-direction: row;
+            gap: 36px;
+        }
     }
     &__li {
         padding: 28px 0 28px 32px;
@@ -41,6 +48,9 @@
             justify-content: center;
             align-items: center;
             
+        }
+        @media (min-width: 1024px){
+            width: 33%;
         }
     }
         &__logo {
