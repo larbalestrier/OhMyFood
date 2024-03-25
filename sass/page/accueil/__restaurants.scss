@@ -1,7 +1,8 @@
 .restaurants{
     background-color: #F6F6F6;
     padding: 30px 20px 66px 20px;
-    @media (min-width: 1024px){
+    
+    @media (min-width: 1440px){
      padding: 30px 180px;   
     }
     &__title-section{
@@ -14,8 +15,11 @@
         @media (min-width: 1024px){
            display: grid;
            grid-template-columns: 1fr 1fr;
-           column-gap: 100px;
+           column-gap: 50px;
            row-gap: 50px;
+        }
+        @media (min-width: 1440px){
+            column-gap: 100px;
         }
     }
     

@@ -96,7 +96,7 @@
 .fonctionnement {
   margin: 48px 20px 68px 20px;
 }
-@media (min-width: 1024px) {
+@media (min-width: 1440px) {
   .fonctionnement {
     margin: 50px 180px;
   }
@@ -160,7 +160,7 @@
   background-color: #F6F6F6;
   padding: 30px 20px 66px 20px;
 }
-@media (min-width: 1024px) {
+@media (min-width: 1440px) {
   .restaurants {
     padding: 30px 180px;
   }
@@ -177,8 +177,13 @@
   .restaurants__container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    column-gap: 100px;
+    column-gap: 50px;
     row-gap: 50px;
+  }
+}
+@media (min-width: 1440px) {
+  .restaurants__container {
+    column-gap: 100px;
   }
 }
 .restaurants__card {
