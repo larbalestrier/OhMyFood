@@ -22,6 +22,10 @@
     position: relative;
     top: -32px;
     padding: 32px 13px 0px 13px;
+    @media (min-width: 1024px ){
+        margin-inline: 15%;
+        padding-inline: 15%;
+    }
     &__head{
         display: flex;
         justify-content: space-between;
@@ -97,7 +101,7 @@
 }
 
 .main-restaurant{
-    margin-bottom: -33px;
+    margin-bottom: -32px;
 }
 
 

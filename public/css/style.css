@@ -263,6 +263,14 @@ a {
   background-color: #353535;
   padding: 22px 25px;
 }
+@media (min-width: 1024px) {
+  .footer {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    padding: 57px 26.42px 30px 0px;
+  }
+}
 .footer * {
   color: white;
   list-style: none;
@@ -275,11 +283,23 @@ a {
   font-size: 18px;
   padding-bottom: 16px;
 }
+@media (min-width: 1024px) {
+  .footer__title {
+    padding-bottom: 0;
+    padding-left: 5%;
+  }
+}
 .footer__ul {
   padding-left: 0;
   display: flex;
   flex-direction: column;
   gap: 7px;
+}
+@media (min-width: 1024px) {
+  .footer__ul {
+    flex-direction: row;
+    gap: 25px;
+  }
 }
 .footer__size-txt {
   font-weight: 300;
@@ -318,6 +338,12 @@ a {
   position: relative;
   top: -32px;
   padding: 32px 13px 0px 13px;
+}
+@media (min-width: 1024px) {
+  .menu {
+    margin-inline: 15%;
+    padding-inline: 15%;
+  }
 }
 .menu__head {
   display: flex;
@@ -390,7 +416,7 @@ a {
 }
 
 .main-restaurant {
-  margin-bottom: -33px;
+  margin-bottom: -32px;
 }
 
 .container-logo-check {
