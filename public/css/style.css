@@ -43,6 +43,11 @@
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+  color: #353535;
+}
+
 .intro {
   display: flex;
   flex-direction: column;
@@ -91,6 +96,12 @@
 .btn:hover {
   opacity: 0.8;
   box-shadow: 0px 0px 15px 4px rgba(0, 0, 0, 0.3490196078);
+}
+.btn__commander {
+  border: none;
+  width: 186px;
+  text-align: center;
+  padding: 13px;
 }
 
 .fonctionnement {
@@ -281,6 +292,130 @@
 }
 .footer__size-logo2 {
   font-size: 10px;
+}
+
+.header__menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__arrow {
+  position: absolute;
+  left: 23px;
+}
+
+.img-restaurant {
+  max-height: 275px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.menu {
+  background-color: #F7F7F7;
+  border-radius: 32px 32px 0px 0px;
+  position: relative;
+  top: -32px;
+  padding: 32px 13px 0px 13px;
+}
+.menu__head {
+  display: flex;
+  justify-content: space-between;
+}
+.menu__title {
+  font-family: "Shrikhand", "cursive";
+  font-size: 28px;
+  font-style: italic;
+  font-weight: 400;
+  padding-right: 24px;
+}
+.menu__btn {
+  padding-right: 24px;
+}
+
+.article-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding-top: 40px;
+}
+
+.card-title {
+  font-size: 16px;
+  font-weight: 300;
+  position: relative;
+  padding-bottom: 10px;
+}
+.card-title::after {
+  content: "";
+  width: 40px;
+  height: 3px;
+  background-color: #99e2d0;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.card-article {
+  background-color: #FFFFFF;
+  border-radius: 15px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+}
+.card-article:hover .container-logo-check {
+  margin-right: 0;
+}
+.card-article__element {
+  padding: 15px 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 100%;
+}
+.card-article__title {
+  font-size: 18px;
+}
+.card-article__subtitle {
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.container-btn__commander {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+.main-restaurant {
+  margin-bottom: -33px;
+}
+
+.container-logo-check {
+  display: flex;
+  background-color: #99E2D0;
+  justify-content: center;
+  align-items: center;
+  width: 59px;
+  border-radius: 0px 15px 15px 0px;
+  margin-right: -59px;
+  transition: all 0.4s;
+}
+
+.bg-check {
+  background-color: white;
+  border-radius: 25px;
+  height: 20px;
+  width: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-check {
+  color: #99E2D0;
 }
 
 /*# sourceMappingURL=style.css.map */
