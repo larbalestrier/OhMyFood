@@ -339,7 +339,7 @@ a {
   top: -32px;
   padding: 32px 13px 0px 13px;
 }
-@media (min-width: 1024px) {
+@media (min-width: 700px) {
   .menu {
     margin-inline: 15%;
     padding-inline: 15%;
@@ -348,6 +348,11 @@ a {
 .menu__head {
   display: flex;
   justify-content: space-between;
+}
+@media (min-width: 700px) {
+  .menu__head {
+    justify-content: center;
+  }
 }
 .menu__title {
   font-family: "Shrikhand", "cursive";

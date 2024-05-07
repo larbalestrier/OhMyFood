@@ -22,14 +22,17 @@
     position: relative;
     top: -32px;
     padding: 32px 13px 0px 13px;
-    @media (min-width: 1024px ){
+    @media (min-width: 700px ){
         margin-inline: 15%;
         padding-inline: 15%;
     }
     &__head{
         display: flex;
         justify-content: space-between;
-        
+        @media (min-width:700px) {
+            justify-content: center;
+            
+        }
     }
     &__title{
         font-family: "Shrikhand", "cursive";
