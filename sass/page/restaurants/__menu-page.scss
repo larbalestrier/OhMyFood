@@ -131,3 +131,54 @@
 .logo-check{
     color: #99E2D0;
 }
+
+
+
+
+@keyframes apparaitre{
+    0%{
+        transform: scale(0);
+        transform-origin: 100% 50%;
+    }
+    100%{
+        transform: scale(1);
+        
+    }
+}
+
+.delai-menu-1{
+    animation: apparaitre 1.5s cubic-bezier(.58,1.13,.82,.96) both;
+    animation-delay:0s ;
+}
+.delai-menu-2{
+    animation: apparaitre 1.5s cubic-bezier(.58,1.13,.82,.96) both;
+    animation-delay: 0.2s ;
+}
+.delai-menu-3{
+    animation: apparaitre 1.5s cubic-bezier(.58,1.13,.82,.96) both;
+    animation-delay:0.4s ;
+}
+.delai-menu-4{
+    animation: apparaitre 1.5s cubic-bezier(.58,1.13,.82,.96) both;
+    animation-delay:0.6s ;
+}
+.delai-menu-5{
+    animation: apparaitre 1.5s cubic-bezier(.58,1.13,.82,.96) both;
+    animation-delay: 0.8s ;
+}
+.delai-menu-6{
+    animation: apparaitre 1.5s cubic-bezier(.58,1.13,.82,.96) both;
+    animation-delay:1s ;
+}
+.delai-menu-7{
+    animation: apparaitre 1.5s cubic-bezier(.58,1.13,.82,.96) both;
+    animation-delay:1.2s ;
+}
+.delai-menu-8{
+    animation: apparaitre 1.5s cubic-bezier(.58,1.13,.82,.96) both;
+    animation-delay: 1.4s ;
+}
+.delai-menu-9{
+    animation: apparaitre 1.5s cubic-bezier(.58,1.13,.82,.96) both;
+    animation-delay:1.6s ;
+}
